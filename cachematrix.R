@@ -36,13 +36,3 @@ cacheSolve <- function(x, ...) {
 }
 
 
-##test it out
-d=rnorm(60)
-test.matrix=matrix(c(1,0,0,1),nrow=2,ncol=2)
-test.matrix
-
-cache.matrix<-makeCacheMatrix(test.matrix)
-cacheSolve(cache.matrix)
-
-det(test.matrix)
-
